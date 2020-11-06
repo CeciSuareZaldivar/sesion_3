@@ -1,6 +1,118 @@
 .header-container-padre {
-width: 100%;
-height: 400px;
-background-color: burlywood;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 0;
+    width: 100%;
+    background-color: #c91c72;
+    color: whitesmoke;
+}
+
+ 
+ .header-container-padre > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+
+.body-container-padre{
+    margin-top: 35px;
+    margin-left: 20px; 
+    margin-right: 20px;
+    background-color: bisque;
+    text-align: justify;
+}
+
+
+.Historia{
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.body-container-info{
+    margin-top: 5px;
+    margin-left: 20px; 
+    margin-right: 20px;
+    display: inline-block;
+    background-color: white;
+}
+
+
+
+li{
+    display: inline;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.barra-navegacion {
+    width: 70%;
+    text-align: center;
+}
+
+
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+}
+
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#Sign-in {
+    color: thistle;
+}
+
+
+.Titulo{
+    text-align: center;
+    font-family: cursive;
+    }
+
+.txt_1{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

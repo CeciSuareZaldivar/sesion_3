@@ -10,30 +10,53 @@
         <link rel="stylesheet" href="estilos.css">
         <title>Document</title>
     </head>
-    <body>
+    <body class="body-container-padre" background="fondo.jpg">
+
+    <h1 class="Titulo"> Mitología Griega </h1>
+
+    <div class="body-container-info">
         <!--Estructura del navegador-->
+        <!--H1 (titulo principal) sólo se puede usar una vez por página-->
        
-       <header class="header-container-padre" >     
-             <!--H1 (titulo principal) sólo se puede usar una vez por página-->
-             <h1> Header </h1>
-        <!--Nav (Barra navegación) Puede ir adentro de header-->
-        <nav class = "barra-navegacion">
-           
-        </nav>
+        <header class="header-container-padre" >   
+            
+            <<h2 class="Historia">
+                <div>
+                    <img src="https://www.laguia2000.com/wp-content/themes/guia-2000/images/icons/historia.png">
+                </div>
+                Historia 
+            </h2>
+            <!--Nav (Barra navegación) Puede ir adentro de header-->
+            <nav class = "barra-navegacion">
+
+                <!--Escructurar en listas para mayor orden--> 
+                <ul>
+                    <li> Introducción </li>
+                    <li> Mitología </li>
+                    <li> Dioses Olímpicos </li>
+                    <li> Héroes </li>
+                    <li> Mitos </li>
+                </ul>
+            </nav>
+
+            <div class = "actions">
+                <a id="Sign-in" href="/login"> Iniciar Sesión </a>
+            </div>
+        </header>
         
-    </header>
-    
 
-        <!--Main sólo se puede usar una vez por página /proyecto SEO, se usa para los elementos mas importantes de la pagina-->
-        <main class="main">
-           
-        </main>
-    
-        <section> 
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-                
-        </section>
-
+            <!--Main sólo se puede usar una vez por página /proyecto SEO, se usa para los elementos mas importantes de la pagina-->
+            <main class="main">
+            
+            </main>
+        
+            <section class="txt_1"> 
+                <p> Los griegos, al igual que la mayoría de los pueblos de la antigüedad, eran politeístas (creían en muchos dioses) a los que les asignaron forma humana (antropomorfismo) y les adjudicaron virtudes y defectos de las personas, diferenciándose del resto de los hombres, por su carácter inmortal, y por serles ajenas la miseria, las enfermedades y la vejez.</p>
+                <div align="center">
+                <img src="https://i.pinimg.com/originals/ae/56/d0/ae56d0b879ca70403d8df66f53884076.png">
+                 </div>
+            </section>
+    </div>
         <!--Pie de página-->
 
         <footer class="footer-container-padre">  
