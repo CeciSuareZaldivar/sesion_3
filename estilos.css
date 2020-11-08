@@ -1,14 +1,17 @@
 .header-container-padre {
 <<<<<<< HEAD
+<<<<<<< HEAD
 width: 100%;
 height: 200px;
 background-color: burlywood;
 =======
     margin-top: 10px;
+=======
+>>>>>>> 9212bde4639189997853cd9b75bb0e780209ff68
     margin-right: 20px;
     font-size: 0;
     width: 100%;
-    background-color: #c91c72;
+    background-color: #555555;
     color: whitesmoke;
 }
 
@@ -23,6 +26,7 @@ background-color: burlywood;
  
 
 .body-container-padre{
+    background-image: url(https://i.ibb.co/QQ2tJPv/fondo.jpg);
     margin-top: 35px;
     margin-left: 20px; 
     margin-right: 20px;
@@ -39,12 +43,14 @@ background-color: burlywood;
     padding-right: 15px;
 }
 
+
 .body-container-info{
     margin-top: 5px;
     margin-left: 20px; 
     margin-right: 20px;
     display: inline-block;
     background-color: white;
+   
 }
 
 
@@ -82,6 +88,7 @@ li{
     font-family: cursive;
     }
 
+<<<<<<< HEAD
 .txt_1{
     margin-left: 15px;
     margin-right: 15px;
@@ -112,6 +119,18 @@ li{
     margin-top: 25px;
     padding-right: 14px;
     padding-left: 14px;
+=======
+.img_top{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pag{
+    display:grid;
+    align-content: center;
+}
+>>>>>>> 9212bde4639189997853cd9b75bb0e780209ff68
 
 }
 
@@ -127,6 +146,7 @@ li{
     padding-left: 14px;
 }
 
+<<<<<<< HEAD
 .video4{
     margin-top: 25px;
     padding-right: 14px;
@@ -143,38 +163,167 @@ li{
     margin-top: 25px;
     padding-right: 14px;
     padding-left: 14px;
+=======
+.Navegador{
+    background-color: #555555
+>>>>>>> 9212bde4639189997853cd9b75bb0e780209ff68
+}
+
+.Inicio{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    background-image: url(https://image.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg);
+}
+
+
+.img_ini{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    font-size: 21px;
+    text-align: center;
+    background-color: ivory;
+}
+
+.contenedor_img_ini{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.Beneficios{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    align-content: center;
+}
+
+.Publicidad{
+    background-image: url(https://image.freepik.com/free-vector/white-elegant-texture-background_23-2148433720.jpg);
+}
+
+.frase_publi{
+    text-align: center;
+    align-content: center;
+    background-image: url(https://image.freepik.com/free-vector/white-elegant-texture-background_23-2148433907.jpg);
+}
+
+.txt_frase_publi{
+    display: grid;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+.frases{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+
+.frase{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    background-image: url(https://image.freepik.com/free-vector/white-elegant-texture-background_23-2148433907.jpg);
+
+}
+
+.txt_bene_publi{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+
+.txt_publi_autor{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.txt{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: sans-serif;
+}
+
+.Imgs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+
+.Newsletter{
+    background-image: url(https://image.freepik.com/free-vector/white-elegant-texture-background_23-2148433720.jpg);
+}
+
+
+.Newsletter >form p{
+    color: lightcoral;
+    margin-right: 18px;
+}
+
+#boton {
+    color: white;
+    background-color: lightcoral;    
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+.h3{
+    color: lightslategray;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.item_img{
+    margin-top: 0px;
+    display: inline-block;
+    align-items: center;
 }
 
 
 
 
+.videos{
+    align-items: center;
+    background-image: url(https://static.websguru.com.ar/var/m_9/9d/9d7/4414/1553988-sayagata-400px.png);
+    
+}
+
+.videos > * {
+    display: inline-block;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.contenedor_video{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container_video_padre{ 
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(2, 1fr);
+  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<<<<<<< HEAD
 
 
 
@@ -204,3 +353,5 @@ li{
 
 
 
+=======
+>>>>>>> 9212bde4639189997853cd9b75bb0e780209ff68
