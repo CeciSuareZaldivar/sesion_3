@@ -1,4 +1,26 @@
+.body-container-padre{
+background-image: url(https://i.ibb.co/QQ2tJPv/fondo.jpg);
+}
+
+.Titulo{
+text-align: center;
+font-family: cursive;
+}
+
+.Navegador{
+text-align: center;
+background-color: #555555
+padding: 10px;
+}
+  
+.img_top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
 .header-container-padre {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 width: 100%;
@@ -9,19 +31,21 @@ background-color: burlywood;
 =======
 >>>>>>> 9212bde4639189997853cd9b75bb0e780209ff68
     margin-right: 20px;
+=======
+    text-align: center;
+>>>>>>> 2d2373358f26a47c2845612c1f8cd126a5ec2f5b
     font-size: 0;
     width: 100%;
     background-color: #555555;
     color: whitesmoke;
 }
 
- 
- .header-container-padre > * {
+.header-container-padre > * {
     display: inline-block;
     font-size: 16px;
-    vertical-align: middle;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+<<<<<<< HEAD
  }
  
 
@@ -32,8 +56,9 @@ background-color: burlywood;
     margin-right: 20px;
     background-color: bisque;
     text-align: justify;
+=======
+>>>>>>> 2d2373358f26a47c2845612c1f8cd126a5ec2f5b
 }
-
 
 .Historia{
     font-size: 18px;
@@ -43,6 +68,7 @@ background-color: burlywood;
     padding-right: 15px;
 }
 
+<<<<<<< HEAD
 
 .body-container-info{
     margin-top: 5px;
@@ -55,18 +81,14 @@ background-color: burlywood;
 
 
 
+=======
+>>>>>>> 2d2373358f26a47c2845612c1f8cd126a5ec2f5b
 li{
     display: inline;
     padding-left: 45px;
     padding-right: 45px;
 }
-
-.barra-navegacion {
-    width: 70%;
-    text-align: center;
-}
-
-
+  
 .actions {
     width: 15%;
     text-align: right;
@@ -82,12 +104,22 @@ li{
     color: thistle;
 }
 
+.body-container-info{
+margin: 1rem;
+display: inline-block;
+align-content: center;
+background-color: white;
+justify-content: center;  
+}
 
-.Titulo{
-    text-align: center;
-    font-family: cursive;
-    }
+.Inicio{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    background-image: url(https://image.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg);
+}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .txt_1{
     margin-left: 15px;
@@ -253,17 +285,57 @@ li{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+=======
+.txt{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: sans-serif;
 }
 
+.img_ini{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    font-size: 21px;
+    text-align: center;
+    background-color: ivory;
+>>>>>>> 2d2373358f26a47c2845612c1f8cd126a5ec2f5b
+}
+
+.contenedor_img_ini{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+<<<<<<< HEAD
+.Newsletter{
+=======
+.Publicidad{
+>>>>>>> 2d2373358f26a47c2845612c1f8cd126a5ec2f5b
+    background-image: url(https://image.freepik.com/free-vector/white-elegant-texture-background_23-2148433720.jpg);
+}
 
 .Newsletter{
     background-image: url(https://image.freepik.com/free-vector/white-elegant-texture-background_23-2148433720.jpg);
 }
-
-
+  
+  
 .Newsletter >form p{
     color: lightcoral;
     margin-right: 18px;
+}
+
+<<<<<<< HEAD
+.Newsletter >form p{
+    color: lightcoral;
+    margin-right: 18px;
+=======
+.h3{
+    color: lightslategray;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+>>>>>>> 2d2373358f26a47c2845612c1f8cd126a5ec2f5b
 }
 
 #boton {
@@ -277,6 +349,10 @@ li{
     border-radius: 5px;
 }
 
+.txt_bene_publi{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
 
 .h3{
     color: lightslategray;
@@ -284,22 +360,80 @@ li{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.txt_frase_publi{
+    display: grid;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
 
+<<<<<<< HEAD
 .item_img{
     margin-top: 0px;
     display: inline-block;
     align-items: center;
+=======
+.Beneficios{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    align-content: center;
+>>>>>>> 2d2373358f26a47c2845612c1f8cd126a5ec2f5b
 }
 
+.frase_publi{
+    text-align: center;
+    align-content: center;
+    background-image: url(https://image.freepik.com/free-vector/white-elegant-texture-background_23-2148433907.jpg);
+}
+
+.frases{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+  }
+  
+.frase{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-image: url(https://image.freepik.com/free-vector/white-elegant-texture-background_23-2148433907.jpg);
+  }
 
 
+.txt_publi_autor{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
+.Imgs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+<<<<<<< HEAD
 .videos{
     align-items: center;
     background-image: url(https://static.websguru.com.ar/var/m_9/9d/9d7/4414/1553988-sayagata-400px.png);
     
 }
 
+=======
+.item_img{
+    margin-top: 0px;
+    display: inline-block;
+    align-items: center;
+}
+
+.videos{
+    align-items: center;
+    background-image: url(https://static.websguru.com.ar/var/m_9/9d/9d7/4414/1553988-sayagata-400px.png);
+    
+}
+  
+>>>>>>> 2d2373358f26a47c2845612c1f8cd126a5ec2f5b
 .videos > * {
     display: inline-block;
     text-align: center;
@@ -308,6 +442,7 @@ li{
     font-weight: bold;
     justify-content: center;
 }
+<<<<<<< HEAD
 
 .contenedor_video{
     font-family: sans-serif;
@@ -321,8 +456,30 @@ li{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows:repeat(2, 1fr);
   }
+=======
+  
 
+.container_video_padre{ 
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(2, 1fr);
+}
 
+.item_video{
+display: flex;
+flex-direction: column;
+align-items: center;
+}    
+>>>>>>> 2d2373358f26a47c2845612c1f8cd126a5ec2f5b
+
+.contenedor_video{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -355,3 +512,9 @@ li{
 
 =======
 >>>>>>> 9212bde4639189997853cd9b75bb0e780209ff68
+=======
+.contenedor_video img{
+width: 120px;
+margin-top: 10px;
+}
+>>>>>>> 2d2373358f26a47c2845612c1f8cd126a5ec2f5b
