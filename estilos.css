@@ -218,12 +218,19 @@ align-items: center;
 }    
 
 .contenedor_video{
-    font-family: sans-serif;
-    text-align: center;
-    font-weight: bold;
+font-family: sans-serif;
+text-align: center;
+font-weight: bold;
 }
 
 .contenedor_video img{
 width: 120px;
 margin-top: 10px;
+}
+
+.footer-container-padre{
+background-color: #555555
+text-align: center;
+color: white;
+padding: 10px;
 }
